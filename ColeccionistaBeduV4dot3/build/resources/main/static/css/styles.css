@@ -1,0 +1,75 @@
+body {
+  background-color: #202030;
+  color: #FFFFFF;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  background-color: #39304A;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  color: #7D7461;
+}
+
+.btn-link {
+  color: #7D7461;
+}
+
+.btn-link:hover {
+  color: #635C51;
+}
+
+.table {
+  background-color: #39304A;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.table th, .table td {
+  color: #635C51;
+}
+
+.btn-primary {
+  background-color: #7D7461;
+  border-color: #7D7461;
+}
+
+.btn-primary:hover {
+  background-color: #635C51;
+  border-color: #635C51;
+}
+
+.btn-danger {
+  background-color: #A83232;
+  border-color: #A83232;
+}
+
+.btn-danger:hover {
+  background-color: #8B2626;
+  border-color: #8B2626;
+}
+
+.form-label {
+  color: #FFFFFF;
+}
+
+.form-control {
+  background-color: #39304A;
+  color: #FFFFFF;
+  border: 1px solid #635C51;
+}
+
+.form-control:focus {
+  background-color: #39304A;
+  color: #7D7461;
+  border-color: #7D7461;
+  box-shadow: none;
+}
+
+.price-input {
+    width: 80%; /* Reduce el tamaño al 80% */
+    text-align: center; /* Centra el texto */
+}

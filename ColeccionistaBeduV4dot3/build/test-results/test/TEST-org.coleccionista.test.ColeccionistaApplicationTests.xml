@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.coleccionista.test.ColeccionistaApplicationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-06-19T00:55:58" hostname="LAPTOP-I5BUJFE2" time="2.317">
+  <properties/>
+  <testcase name="testCreateProduct()" classname="org.coleccionista.test.ColeccionistaApplicationTests" time="1.603"/>
+  <testcase name="testGetProducts()" classname="org.coleccionista.test.ColeccionistaApplicationTests" time="0.645"/>
+  <testcase name="testCountByName()" classname="org.coleccionista.test.ColeccionistaApplicationTests" time="0.058"/>
+  <testcase name="contextLoads()" classname="org.coleccionista.test.ColeccionistaApplicationTests" time="0.004"/>
+  <system-out><![CDATA[18:55:53.658 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.coleccionista.test.ColeccionistaApplicationTests]: ColeccionistaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:55:53.755 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.coleccionista.test.ShopApplication for test class org.coleccionista.test.ColeccionistaApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-18T18:55:54.223-06:00  INFO 19776 --- [shop] [    Test worker] o.c.test.ColeccionistaApplicationTests   : Starting ColeccionistaApplicationTests using Java 21.0.2 with PID 19776 (started by Daniel in C:\Users\Daniel\Documents\Bedu\ColeccionistaBeduV4dot3)
+2024-06-18T18:55:54.225-06:00  INFO 19776 --- [shop] [    Test worker] o.c.test.ColeccionistaApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-06-18T18:55:54.930-06:00  INFO 19776 --- [shop] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-18T18:55:54.983-06:00  INFO 19776 --- [shop] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2024-06-18T18:55:55.606-06:00  INFO 19776 --- [shop] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-06-18T18:55:55.625-06:00  INFO 19776 --- [shop] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-18T18:55:55.625-06:00  INFO 19776 --- [shop] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-18T18:55:55.701-06:00  INFO 19776 --- [shop] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-18T18:55:55.702-06:00  INFO 19776 --- [shop] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1448 ms
+2024-06-18T18:55:55.873-06:00  INFO 19776 --- [shop] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-18T18:55:55.948-06:00  INFO 19776 --- [shop] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-18T18:55:55.992-06:00  INFO 19776 --- [shop] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-18T18:55:56.357-06:00  INFO 19776 --- [shop] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-18T18:55:56.391-06:00  INFO 19776 --- [shop] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-18T18:55:56.572-06:00  INFO 19776 --- [shop] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@60574cce
+2024-06-18T18:55:56.575-06:00  INFO 19776 --- [shop] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-18T18:55:57.543-06:00  INFO 19776 --- [shop] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-18T18:55:57.584-06:00  INFO 19776 --- [shop] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T18:55:57.905-06:00  INFO 19776 --- [shop] [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-18T18:55:58.438-06:00  WARN 19776 --- [shop] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-18T18:55:58.465-06:00  INFO 19776 --- [shop] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-18T18:55:58.876-06:00  INFO 19776 --- [shop] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 56116 (http) with context path '/'
+2024-06-18T18:55:58.892-06:00  INFO 19776 --- [shop] [    Test worker] o.c.test.ColeccionistaApplicationTests   : Started ColeccionistaApplicationTests in 4.986 seconds (process running for 6.54)
+2024-06-18T18:56:00.627-06:00  INFO 19776 --- [shop] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-18T18:56:00.627-06:00  INFO 19776 --- [shop] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-18T18:56:00.628-06:00  INFO 19776 --- [shop] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Daniel\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.16\4a451ee6484abac3a498df0f3b33ed00a6fced4d\byte-buddy-agent-1.14.16.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
